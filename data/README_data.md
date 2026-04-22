@@ -1,6 +1,6 @@
 # Dataset Download Instructions
 
-The datasets are **not included** in this repository. Download them from Kaggle and place the CSV files in the `/content/` directory when running on Google Colab (or adjust paths for local use).
+The datasets are **included** in this repository in the root folder at /content. They can also be downloaded from their source on Kaggle and placed in the `/content/` directory when running on Google Colab (or adjust paths for local use).
 
 ---
 
