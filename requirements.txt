@@ -1,0 +1,25 @@
+# Core data science
+pandas>=1.5.0
+numpy>=1.23.0
+
+# NLP preprocessing
+nltk>=3.8.0
+
+# Machine learning
+scikit-learn>=1.2.0
+
+# Deep learning / FinBERT
+transformers==4.40.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Polarity analysis (Appendix Cell)
+textblob>=0.17.0
+
+# Note: All cells are designed for Google Colab.
+# Cell 4 (FinBERT) installs transformers/torch automatically via subprocess.
+# For local use, install this file: pip install -r requirements.txt
