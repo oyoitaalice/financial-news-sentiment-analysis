@@ -55,7 +55,7 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 ## Repository Structure
 
 ```
-├── sentiment_analysis_finbert.ipynb   # Full pipeline notebook (9 cells + appendix)
+├── sentiment_analysis_5Finbert_main.ipynb   # Full pipeline notebook (9 cells + appendix)
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── LICENSE                            # MIT License
