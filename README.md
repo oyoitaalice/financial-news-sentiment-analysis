@@ -101,7 +101,7 @@ CPU inference on 970 sentences takes 10–20 minutes. GPU takes ~3 minutes.
 ## Running the Notebook
 
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Upload `sentiment_analysis_finbert.ipynb`
+2. Upload `sentiment_analysis_5Finbert_main.ipynb`
 3. Download the datasets from Kaggle (see `data/README_data.md`)
 4. Upload the following CSV files to `/content/` in Colab:
    - `all-data.csv` (Financial PhraseBank)
