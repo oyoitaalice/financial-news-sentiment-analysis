@@ -62,10 +62,10 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 ├── data/
     └── README_data.md                 # Dataset download instructions
 └── content/
-    ├── all-data.csv                 # Dataset 1 - Phrasebank
-    ├── cnbc_headlines.csv           # Dataset 2a - Financial News Headlines
-    ├── guardian_headlines.csv       # Dataset 2b - Financial News Headlines
-    └── reuters_headlines.csv        # Dataset 2c - Financial News Headlines
+    ├── all-data.csv                   # Dataset 1 - Phrasebank
+    ├── cnbc_headlines.csv             # Dataset 2a - Financial News Headlines
+    ├── guardian_headlines.csv         # Dataset 2b - Financial News Headlines
+    └── reuters_headlines.csv          # Dataset 2c - Financial News Headlines
 
 ```
 
