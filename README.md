@@ -55,7 +55,7 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 ## Repository Structure
 
 ```
-├── sentiment_analysis_5Finbert_main.ipynb   # Full pipeline notebook (9 cells + appendix)
+├── sentiment_analysis_10Finbert_main.ipynb   # Full pipeline notebook (9 cells + appendix cell)
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── LICENSE                            # MIT License
@@ -77,7 +77,7 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 
 | Dataset | Source | Records | Use |
 |---|---|---|---|
-| Financial PhraseBank (75% agreement) | [Kaggle — ankurzing](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news) | 4,846 labelled sentences | Training and test set |
+| Financial PhraseBank (full agreement) | [Kaggle — ankurzing](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news) | 4,846 labelled sentences | Training and test set |
 | Reuters Financial News Headlines | [Kaggle — notlucasp](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines) | 32,770 headlines | Cross-dataset validation, temporal split |
 | CNBC Headlines | [Kaggle — notlucasp](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines) | 3,080 headlines | Cross-dataset validation |
 | Guardian Headlines | [Kaggle — notlucasp](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines) | 17,800 headlines | Cross-dataset validation |
@@ -86,7 +86,7 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 
 ## Requirements
 
-Python 3.8+ on Google Colab (recommended) or any local environment with GPU for FinBERT.
+Python 3.8+ on Google Colab (recommended) or any local environment with a GPU for FinBERT.
 
 ```bash
 pip install -r requirements.txt
@@ -101,7 +101,7 @@ CPU inference on 970 sentences takes 10–20 minutes. GPU takes ~3 minutes.
 ## Running the Notebook
 
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Upload `sentiment_analysis_5Finbert_main.ipynb`
+2. Upload `sentiment_analysis_10Finbert_main.ipynb`
 3. Download the datasets from Kaggle (see `data/README_data.md`)
 4. Upload the following CSV files to `/content/` in Colab:
    - `all-data.csv` (Financial PhraseBank)
