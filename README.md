@@ -59,8 +59,14 @@ Appendix Cell: TextBlob polarity analysis (supplementary)
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── LICENSE                            # MIT License
-└── data/
+├── data/
     └── README_data.md                 # Dataset download instructions
+└── content/
+    ├── all-data.csv                 # Dataset 1 - Phrasebank
+    ├── cnbc_headlines.csv           # Dataset 2a - Financial News Headlines
+    ├── guardian_headlines.csv       # Dataset 2b - Financial News Headlines
+    └── reuters_headlines.csv        # Dataset 2c - Financial News Headlines
+
 ```
 
 > **Note:** The datasets are not included in this repository due to licensing and size constraints. See `data/README_data.md` for download instructions.
